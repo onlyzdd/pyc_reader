@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pyc-reader"
+version = "0.0.1"
+description = ""
+authors = ["Dongdong Zhang <zhangdd@whut.edu.cn>"]
+readme = "README.md"
+packages = [{include = "pyc_reader"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
